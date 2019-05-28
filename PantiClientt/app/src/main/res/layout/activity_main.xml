@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    android:padding="16dp"
+    tools:context="com.meridianid.farizdotid.mahasiswaapp.activity.MainActivity">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="#FFF"
+            android:layout_marginBottom="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Selamat Datang!"/>
+
+        <RelativeLayout
+            android:layout_marginTop="20dp"
+            android:id="@+id/info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="80pt"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="#FFF"
+                    android:id="@+id/tvNama"
+                    android:layout_marginRight="40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Nama"
+
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:textColor="#FFF"
+                    android:layout_marginRight="40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/tvNama"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/tvEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Email"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:textColor="#FFF"
+                    android:layout_marginRight="40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/tvEmail"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/tvJenis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Jenis"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:textColor="#FFF"
+                    android:layout_marginRight="40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/tvJenis"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/tvAlamat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Alamat"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:textColor="#FFF"
+                    android:layout_marginRight="40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/tvAlamat"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/tvPenghuni"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Penghuni"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:textColor="#FFF"
+                    android:layout_marginRight="40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/tvPenghuni"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/tvDeskripsi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Deskripsi"
+                    android:textSize="16sp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_alignParentRight="true"
+                android:layout_width="100pt"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="#FFF"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/tvResultNama"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    tools:text="Nama"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:textColor="#FFF"
+                    android:layout_below="@+id/tvResultNama"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/tvResultEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    tools:text="Email"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:textColor="#FFF"
+                    android:layout_below="@+id/tvResultEmail"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/tvResultJenis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    tools:text="Jenis"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:textColor="#FFF"
+                    android:layout_below="@+id/tvResultJenis"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/tvResultAlamat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    tools:text="Alamat"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:textColor="#FFF"
+                    android:layout_below="@+id/tvResultAlamat"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/tvResultPenghuni"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    tools:text="Penghuni"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:textColor="#FFF"
+                    android:layout_below="@+id/tvResultPenghuni"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/tvResultDeskripsi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    tools:text="Deskripsi"
+                    android:textSize="16sp"/>
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_marginBottom="20sp"
+        android:textColor="#FFF"
+        android:layout_above="@+id/btnLihatMatkul"
+        android:id="@+id/btnLihatDosen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="CEK DONASI"
+        android:background="@drawable/bg_rectangle_button"/>
+
+    <Button
+        android:layout_marginBottom="50sp"
+        android:layout_above="@+id/btnLogout"
+        android:textColor="#FFF"
+        android:id="@+id/btnLihatMatkul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="EDIT PROFILE"
+        android:background="@drawable/bg_rectangle_button"/>
+    <Button
+        android:textColor="#FFF"
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="logout"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_rectangle_button"/>
+
+</RelativeLayout>
